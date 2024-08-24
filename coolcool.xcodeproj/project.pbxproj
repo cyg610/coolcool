@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45366862C7A16D60029B018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45366852C7A16D60029B018 /* LaunchScreen.storyboard */; };
 		B4C325322C777F4F002BC885 /* coolcoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C325312C777F4F002BC885 /* coolcoolApp.swift */; };
 		B4C325342C777F4F002BC885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C325332C777F4F002BC885 /* ContentView.swift */; };
 		B4C325362C777F51002BC885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C325352C777F51002BC885 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B45366852C7A16D60029B018 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B45366872C7A1AA70029B018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B4C3252E2C777F4F002BC885 /* coolcool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coolcool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C325312C777F4F002BC885 /* coolcoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolcoolApp.swift; sourceTree = "<group>"; };
 		B4C325332C777F4F002BC885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +35,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B453667E2C7A15C90029B018 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B45366882C7A1F760029B018 /* MainTab */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B453667F2C7A15E90029B018 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B45366892C7A1F940029B018 /* MainTab */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B45366822C7A16250029B018 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B45366842C7A165F0029B018 /* CustomView */,
+				B45366832C7A16550029B018 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B45366832C7A16550029B018 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B45366842C7A165F0029B018 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		B45366882C7A1F760029B018 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				B45366922C7A1FE50029B018 /* Setting */,
+				B45366912C7A1FDE0029B018 /* Sleep */,
+				B45366902C7A1FD40029B018 /* Stats */,
+				B453668E2C7A1FC00029B018 /* Home */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		B45366892C7A1F940029B018 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				B4C325332C777F4F002BC885 /* ContentView.swift */,
+				B453668D2C7A1FB90029B018 /* Setting */,
+				B453668C2C7A1FB30029B018 /* Sleep */,
+				B453668B2C7A1FAD0029B018 /* Stats */,
+				B453668A2C7A1FA40029B018 /* Home */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		B453668A2C7A1FA40029B018 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B453668B2C7A1FAD0029B018 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		B453668C2C7A1FB30029B018 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		B453668D2C7A1FB90029B018 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B453668E2C7A1FC00029B018 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B45366902C7A1FD40029B018 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		B45366912C7A1FDE0029B018 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		B45366922C7A1FE50029B018 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		B4C325252C777F4F002BC885 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +172,12 @@
 		B4C325302C777F4F002BC885 /* coolcool */ = {
 			isa = PBXGroup;
 			children = (
+				B45366872C7A1AA70029B018 /* Info.plist */,
+				B45366822C7A16250029B018 /* Common */,
+				B453667F2C7A15E90029B018 /* Feature */,
+				B453667E2C7A15C90029B018 /* Model */,
 				B4C325312C777F4F002BC885 /* coolcoolApp.swift */,
-				B4C325332C777F4F002BC885 /* ContentView.swift */,
+				B45366852C7A16D60029B018 /* LaunchScreen.storyboard */,
 				B4C325352C777F51002BC885 /* Assets.xcassets */,
 				B4C325372C777F51002BC885 /* Preview Content */,
 			);
@@ -125,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45366862C7A16D60029B018 /* LaunchScreen.storyboard in Resources */,
 				B4C325392C777F51002BC885 /* Preview Assets.xcassets in Resources */,
 				B4C325362C777F51002BC885 /* Assets.xcassets in Resources */,
 			);
@@ -269,16 +395,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"coolcool/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coolcool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +415,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.coolcool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,16 +431,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"coolcool/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coolcool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +451,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.coolcool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
