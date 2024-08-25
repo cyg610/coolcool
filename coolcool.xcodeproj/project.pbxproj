@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B45366862C7A16D60029B018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45366852C7A16D60029B018 /* LaunchScreen.storyboard */; };
+		B45366942C7AFD680029B018 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45366932C7AFD680029B018 /* MoreView.swift */; };
+		B45366962C7AFDC20029B018 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45366952C7AFDC20029B018 /* SleepView.swift */; };
+		B45366982C7AFDCD0029B018 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45366972C7AFDCD0029B018 /* StatsView.swift */; };
+		B453669A2C7AFDD60029B018 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45366992C7AFDD60029B018 /* HomeView.swift */; };
+		B453669C2C7B016F0029B018 /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453669B2C7B016F0029B018 /* AppBar.swift */; };
+		B453669E2C7B02550029B018 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453669D2C7B02550029B018 /* Tab.swift */; };
 		B4C325322C777F4F002BC885 /* coolcoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C325312C777F4F002BC885 /* coolcoolApp.swift */; };
 		B4C325342C777F4F002BC885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C325332C777F4F002BC885 /* ContentView.swift */; };
 		B4C325362C777F51002BC885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C325352C777F51002BC885 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 /* Begin PBXFileReference section */
 		B45366852C7A16D60029B018 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45366872C7A1AA70029B018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B45366932C7AFD680029B018 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		B45366952C7AFDC20029B018 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		B45366972C7AFDCD0029B018 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B45366992C7AFDD60029B018 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B453669B2C7B016F0029B018 /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
+		B453669D2C7B02550029B018 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B4C3252E2C777F4F002BC885 /* coolcool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coolcool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C325312C777F4F002BC885 /* coolcoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolcoolApp.swift; sourceTree = "<group>"; };
 		B4C325332C777F4F002BC885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +82,7 @@
 		B45366842C7A165F0029B018 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				B453669B2C7B016F0029B018 /* AppBar.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -77,10 +90,11 @@
 		B45366882C7A1F760029B018 /* MainTab */ = {
 			isa = PBXGroup;
 			children = (
-				B45366922C7A1FE50029B018 /* Setting */,
+				B45366922C7A1FE50029B018 /* More */,
 				B45366912C7A1FDE0029B018 /* Sleep */,
 				B45366902C7A1FD40029B018 /* Stats */,
 				B453668E2C7A1FC00029B018 /* Home */,
+				B453669D2C7B02550029B018 /* Tab.swift */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -89,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C325332C777F4F002BC885 /* ContentView.swift */,
-				B453668D2C7A1FB90029B018 /* Setting */,
+				B453668D2C7A1FB90029B018 /* More */,
 				B453668C2C7A1FB30029B018 /* Sleep */,
 				B453668B2C7A1FAD0029B018 /* Stats */,
 				B453668A2C7A1FA40029B018 /* Home */,
@@ -100,6 +114,7 @@
 		B453668A2C7A1FA40029B018 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B45366992C7AFDD60029B018 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -107,6 +122,7 @@
 		B453668B2C7A1FAD0029B018 /* Stats */ = {
 			isa = PBXGroup;
 			children = (
+				B45366972C7AFDCD0029B018 /* StatsView.swift */,
 			);
 			path = Stats;
 			sourceTree = "<group>";
@@ -114,15 +130,17 @@
 		B453668C2C7A1FB30029B018 /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
+				B45366952C7AFDC20029B018 /* SleepView.swift */,
 			);
 			path = Sleep;
 			sourceTree = "<group>";
 		};
-		B453668D2C7A1FB90029B018 /* Setting */ = {
+		B453668D2C7A1FB90029B018 /* More */ = {
 			isa = PBXGroup;
 			children = (
+				B45366932C7AFD680029B018 /* MoreView.swift */,
 			);
-			path = Setting;
+			path = More;
 			sourceTree = "<group>";
 		};
 		B453668E2C7A1FC00029B018 /* Home */ = {
@@ -146,11 +164,11 @@
 			path = Sleep;
 			sourceTree = "<group>";
 		};
-		B45366922C7A1FE50029B018 /* Setting */ = {
+		B45366922C7A1FE50029B018 /* More */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Setting;
+			path = More;
 			sourceTree = "<group>";
 		};
 		B4C325252C777F4F002BC885 = {
@@ -264,6 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C325342C777F4F002BC885 /* ContentView.swift in Sources */,
+				B45366982C7AFDCD0029B018 /* StatsView.swift in Sources */,
+				B453669E2C7B02550029B018 /* Tab.swift in Sources */,
+				B45366942C7AFD680029B018 /* MoreView.swift in Sources */,
+				B453669A2C7AFDD60029B018 /* HomeView.swift in Sources */,
+				B453669C2C7B016F0029B018 /* AppBar.swift in Sources */,
+				B45366962C7AFDC20029B018 /* SleepView.swift in Sources */,
 				B4C325322C777F4F002BC885 /* coolcoolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
